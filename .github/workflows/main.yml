@@ -6,7 +6,6 @@ name: Main Workflow
 
 jobs:
   build:
-
     runs-on: self-hosted
 
     steps:
