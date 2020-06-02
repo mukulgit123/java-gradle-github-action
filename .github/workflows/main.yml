@@ -19,3 +19,8 @@ jobs:
 
     - name: Build with Gradle
       run: gradle build
+
+    - name: Running Custom Action    
+      uses: mukulgit123/github-shared-lib@master
+      with:
+        who-to-greet: 'Hello, Mukul Garg'      
